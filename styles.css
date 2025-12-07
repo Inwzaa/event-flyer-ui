@@ -1,0 +1,98 @@
+body {
+  width: 100%;
+  background-color: #120024;
+  font-family: arial, sans-serif, verdana;
+  margin: 0; 
+  padding: 50px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  box-sizing: border-box;
+}
+
+.flyer-card {
+  background-color: thistle;
+  max-width: 500px; 
+  width: 100%;    
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5); 
+}
+
+.poster-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+h1 {
+  color: hotpink;             
+  text-transform: uppercase;
+  letter-spacing: 2px;    
+}
+
+h2 {
+  color: magenta;          
+}
+
+.event, .intro {
+  text-align: center;
+}
+
+.info-section {
+  display: flex;        
+  flex-wrap: wrap;      
+  gap: 20px;           
+  justify-content: center; 
+  width: 100%;           
+}
+
+.lineup-artists, .time-and-place, .ticket-prices {
+  flex: 1;               
+  min-width: 200px;      
+  text-align: left;      
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  background: mistyrose;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #120024;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cta-button {
+  text-decoration: none;
+  background-color: magenta;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  color: white;
+  margin: 20px;
+}
+
+.cta-button:hover {
+  background-color: mediumvioletred;
+}
+
+.cta-button:focus {
+  background-color: mediumvioletred;
+}
+
+.cta-button:active {
+  background-color: salmon;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
